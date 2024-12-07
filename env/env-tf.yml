@@ -1,0 +1,17 @@
+name: SoilMoistureModelTF
+channels:
+  - defaults
+dependencies:
+  - python==3.10.12
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - imageio
+  - pillow
+  - tk
+  - tqdm
+  - scikit-learn
+  - pip:
+        - tensorflow
